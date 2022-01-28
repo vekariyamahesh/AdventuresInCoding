@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIC.Functionality", "Advent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIC.Data", "AIC.Data\AIC.Data.csproj", "{688E43A2-3CF1-4CAF-A028-A39888E332B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIC.Sorting", "AIC.Sorting\AIC.Sorting.csproj", "{7E6A193A-2D48-4F40-8DBF-5B925E4A83C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{688E43A2-3CF1-4CAF-A028-A39888E332B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{688E43A2-3CF1-4CAF-A028-A39888E332B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{688E43A2-3CF1-4CAF-A028-A39888E332B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6A193A-2D48-4F40-8DBF-5B925E4A83C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6A193A-2D48-4F40-8DBF-5B925E4A83C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6A193A-2D48-4F40-8DBF-5B925E4A83C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6A193A-2D48-4F40-8DBF-5B925E4A83C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
