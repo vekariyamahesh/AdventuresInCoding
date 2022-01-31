@@ -57,7 +57,7 @@ namespace AIC.Refactoring.Tests
             dragon.DietType = DietTypeEnum.Omnivore;
             Assert.Equal(4.5M, CreatureFunctionality.CalcuateDragonBite(dragon));
             dragon.DietType = DietTypeEnum.Herbivore;
-            Assert.Equal(4.55M, CreatureFunctionality.CalcuateDragonBite(dragon));
+            Assert.Equal(4.5M, CreatureFunctionality.CalcuateDragonBite(dragon));
         }
 
         [Fact]
