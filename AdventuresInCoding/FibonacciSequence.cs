@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace AIC.Functionality
 {
+
+    /// <summary>
+    /// Ignore this for now, experimenting with possible additions
+    /// </summary>
     public static class FibonacciSequence
     {
         //assume: starts at 0,1; Return n number of ints for the sequence
