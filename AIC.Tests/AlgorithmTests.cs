@@ -19,5 +19,29 @@ namespace AIC.Functionality.Tests
         {
             Assert.Equal(24, Algorithms.GetFactorial(4));
         }
+
+        [Fact]
+        public void CalculateFibonacciSequence()
+        {
+            var results = FibonacciSequence.fibonacci(1);
+
+            Assert.Equal(34, results[^1]);
+        }
+
+        [Fact]
+        public void CalculateMinimumMoves()
+        {
+            var arr1 = new List<int> { 123, 543 };
+            var arr2 = new List<int> { 321, 279 };
+
+            var result = MoveCount.MinimumMoves(arr1, arr2);
+            Assert.Equal(16, result);
+
+            var arr3 = new List<int> { 1234, 4321 };
+            var arr4 = new List<int>{2345, 3214};
+            result = MoveCount.MinimumMoves(arr3, arr4);
+            Assert.Equal(10, result);
+
+        }
     }
 }
