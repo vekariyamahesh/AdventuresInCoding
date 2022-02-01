@@ -1,4 +1,4 @@
-# AdventuresInCoding
+# Adventures In Coding
 
 Welcome to Adventures in Coding! 
 
