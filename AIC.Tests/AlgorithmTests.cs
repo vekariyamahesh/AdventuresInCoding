@@ -20,7 +20,7 @@ namespace AIC.Functionality.Tests
             Assert.Equal(24, Algorithms.GetFactorial(4));
         }
 
-        [Fact(Skip ="Ignore this functionality"]
+        [Fact(Skip ="Ignore this functionality")]
         public void CalculateFibonacciSequence()
         {
             var results = FibonacciSequence.fibonacci(1);
@@ -28,7 +28,7 @@ namespace AIC.Functionality.Tests
             Assert.Equal(34, results[^1]);
         }
 
-        [Fact(Skip = "Ignore this functionality"]
+        [Fact(Skip = "Ignore this functionality")]
         public void CalculateMinimumMoves()
         {
             var arr1 = new List<int> { 123, 543 };
