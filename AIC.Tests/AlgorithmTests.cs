@@ -5,7 +5,7 @@ namespace AIC.Functionality.Tests
 {
     public class AlgorithmTests
     {
-        [Fact(Skip = "Not implemented")]
+        [Fact]
         public void CanFormatSeparators()
         {
             var list = new List<string> { "red", "green", "purple", "yellow", "pink" };
@@ -14,13 +14,13 @@ namespace AIC.Functionality.Tests
         }
 
 
-        [Fact(Skip = "Not implemented")]
+        [Fact]
         public void CanGetFactorial()
         {
             Assert.Equal(24, Algorithms.GetFactorial(4));
         }
 
-        [Fact(Skip ="Ignore this functionality")]
+        [Fact]
         public void CalculateFibonacciSequence()
         {
             var results = FibonacciSequence.fibonacci(1);
