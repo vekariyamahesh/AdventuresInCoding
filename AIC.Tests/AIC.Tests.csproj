@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AdventuresInCoding\AIC.Functionality.csproj" />
+    <ProjectReference Include="..\AIC.Functionality\AIC.Functionality.csproj" />
     <ProjectReference Include="..\AIC.Data\AIC.Data.csproj" />
     <ProjectReference Include="..\AIC.Refactoring\AIC.Refactoring.csproj" />
     <ProjectReference Include="..\AIC.Sorting\AIC.Sorting.csproj" />
