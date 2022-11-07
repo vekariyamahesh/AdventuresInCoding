@@ -1,4 +1,4 @@
-﻿using AIC.Data.Enums;
+using AIC.Data.Enums;
 using AIC.Data.Models;
 using Xunit;
 
@@ -73,5 +73,26 @@ namespace AIC.Refactoring.Tests
             Assert.Equal(3M, CreatureFunctionality.CalcuateDragonBite(dragon));
         }
 
+        [Fact]
+        public void CheckInvalidCreature()
+        {
+            var blah = CreatureFactory.AdoptACreature("blah");
+            Assert.NotNull(blah);
+            Assert.Equal(typeof(Creature), blah.GetType());
+        }
+
+        [Fact]
+        public void CheckEmptyCreature()
+        {
+            var blah = CreatureFactory.AdoptACreature(string.Empty);
+            Assert.Null(blah);
+        }
+
+        [Fact]
+        public void CheckNullCreature()
+        {
+            var blah = CreatureFactory.AdoptACreature(null);
+            Assert.Null(blah);
+        }
     }
 }
