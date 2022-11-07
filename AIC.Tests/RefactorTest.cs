@@ -78,7 +78,7 @@ namespace AIC.Refactoring.Tests
         {
             var blah = CreatureFactory.AdoptACreature("blah");
             Assert.NotNull(blah);
-            Assert.Equal(typeof(Creature), blah.GetType());
+            Assert.IsType<Creature>(blah);
         }
 
         [Fact]
